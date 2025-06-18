@@ -89,7 +89,11 @@
           <td>16</td>
         </tr>
       </table>
-
+      <hr/>
+      <p>A</p><p>B</p>
+      <span>line1 in span</span>
+      <span>line2 in span</span>
+      <hr/><br/>
       <form method="post" action="thanks.html">
         <label>Enter Your Roll no.*</label>
         <input type="number" required/><br/>
@@ -100,9 +104,41 @@
         <label>Enter your Mobile no.</label>
         <input type="number" placeholder="+91 ...."/><br/>
 
-        <label>Enter a password:</label>
+        <label>Enter your Email id.</label>
+        <input type="email" placeholder="abc@gmail.com"/><br/>
+        <label>Create a password:</label>
         <input type="password"/>
-        <br/><input type="submit"/>
+        <br/>
+        <label>Select your birth date:</label>
+        <input type="date"/>
+        <br/>
+        <label>Select a file:</label>
+        <input type="file"/>
+        <br/>     
+        
+        
+        <label>Select what subject you want:</label>
+        <input type="checkbox" value="html">HTML</input>
+        <input type="checkbox" value="css">CSS</input>
+        <input type="checkbox" value="javascript">JAVASCRIPT</input>
+        <br/>      
+        <label>Select your gender:</label>
+        <input type="radio" name="gen" value="male">Male</input>
+        <input type="radio" name="gen" value="female">Female</input>
+        <br/>              
+        <label>Select your District:</label> 
+        <select>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Pune">Pune</option>
+          <option value="Nagpur">Nagpur</option>
+          <option value="Panvel">Panvel</option>
+        </select>
+        <br/>
+        <label>Enter any query if you have:</label><br/>
+        <textarea placeholder="enter..." rows="3" cols="20"></textarea>
+        <br/>
+        <input type="submit"/>
+        <button>Click</button>
       </form>
 
     </section>
